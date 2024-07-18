@@ -1,0 +1,50 @@
+hd = "\033[1;31m[\033[1;37mLTHĐ\033[1;31m] \033[1;37m=> \033[1;32m"
+trái = "\033[1;31m[\033[1;33m"
+phải = "\033[1;31m] \033[1;32m"
+update = '\033[1;31mĐang Update'
+banner = f"""
+\033[1;31m────────────────────────────────────────────────────────────
+\033[1;37m╔══════════════════════════╗
+\033[1;37m║  \033[1;33mTool Công Cụ + Tiện Ích \033[1;37m║
+\033[1;37m╚══════════════════════════╝
+{hd}Nhập {trái}1.1{phải}Tool Get Token Profile-Pro5
+{hd}Nhập {trái}1.2{phải}Tool Get Nhiều Loại Token
+{hd}Nhập {trái}1.3{phải}Tool Get Cookie Pro5
+{hd}Nhập {trái}1.4{phải}Tool Đếm Lần Yêu
+\033[1;31m────────────────────────────────────────────────────────────
+\033[1;37m╔═════════════════════╗
+\033[1;37m║  \033[1;33mTool Facebook      \033[1;37m║
+\033[1;37m╚═════════════════════╝
+{hd}Nhập {trái}2.1{phải}Tool Comment Dạo
+{hd}Nhập {trái}2.2{phải}Tool Gửi Tin Nhắn List Bạn Bè
+{hd}Nhập {trái}2.3{phải}Tool Share Ảo Cookie
+{hd}Nhập {trái}2.4{phải}Tool Thêm Bạn Bè Gợi Ý {update}
+{hd}Nhập {trái}2.5{phải}Tool Spam Box Mess {update}
+\033[1;31m────────────────────────────────────────────────────────────
+\033[1;37m╔═════════════════════╗
+\033[1;37m║  \033[1;33mTool Pro5          \033[1;37m║
+\033[1;37m╚═════════════════════╝
+{hd}Nhập {trái}3.1{phải}Tool Reg Pro5 {update}
+{hd}Nhập {trái}3.2{phải}Tool Thả Icon Story
+{hd}Nhập {trái}3.3{phải}Tool Buff View Story Pro5
+{hd}Nhập {trái}3.4{phải}Tool Buff Follow Bằng Page Pro5
+{hd}Nhập {trái}3.5{phải}Tool Buff Mem Group Bằng Page Pro5 {update}
+{hd}Nhập {trái}3.6{phải}Tool Chuyển Quyền Admin Page Pro5 {update}
+{hd}Nhập {trái}3.7{phải}Tool Kích Hoạt Pro5 {update}
+{hd}Nhập {trái}3.8{phải}Tool Buff Reaction Pro5
+\033[1;31m────────────────────────────────────────────────────────────
+\033[1;37m╔═════════════════════╗
+\033[1;37m║  \033[1;33mTool TikTok        \033[1;37m║
+\033[1;37m╚═════════════════════╝
+{hd}Nhập {trái}4.3{phải}Tool Auto Zefoy (Máy Tính) {update}
+\033[1;31m────────────────────────────────────────────────────────────
+\033[1;37m╔═════════════════════╗
+\033[1;37m║  \033[1;33mTool Golike        \033[1;37m║
+\033[1;37m╚═════════════════════╝
+{hd}Nhập {trái}5.1{phải}Tool Golike Tiktok
+\033[1;31m────────────────────────────────────────────────────────────\n"""
+print(banner)
+print ("\033[1;31m    ╔═════════════════════╗")
+print ("\033[1;31m╔═══║\033[1;33mVui Lòng Chọn Chế Độ:\033[1;31m║")
+print ("\033[1;31m║   ╚═════════════════════╝")
+chon = input("\033[1;31m╚══>\033[1;33m ")
