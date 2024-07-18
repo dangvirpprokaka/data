@@ -1,0 +1,129 @@
+import requests
+try:
+
+    if chon == "1.1" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/get-token.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "1.2" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/get-all-token.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "1.3" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/get-cookie-pro5.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+
+    elif chon == "1.4" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/dem-lan-yeu.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    #Tool Facebook
+    
+    elif chon == "2.1" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/cmtdao.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "2.2" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/gui_tin_nhan_list_bb.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "2.3" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/shareao.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "2.4" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/addfr.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "2.5" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/spam-box-mess.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    #Tool Pro5
+    
+    elif chon == "3.1" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/reg-pro5.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "3.2" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/ic_str.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "3.3" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/viewpro5.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "3.4" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/follow-pro5.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "3.5" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/mem-gr.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "3.6" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/chuyen-admin-pro5.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "3.7" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/kich-hoat-pro5.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    
+    elif chon == "3.8" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/reacpro5.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+
+    #Tool TikTok
+    
+    elif chon == "4.1" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/zefoy.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    #Tool Golike
+    
+    elif chon == "5.1" :
+        try:
+            exec(requests.get('https://raw.githubusercontent.com/dangvirpprokaka/data/main/golike_tiktok.php').text)
+        except:
+            print("\033[1;31mĐang Update Vui Lòng Chọn Chế Độ Khác")
+    else:
+        print(f"{colors['red']}Lựa Chọn Không Xác Định")
+except:
+    if not is_connected():
+        print(f"{colors['red']}Vui Lòng Kiểm Tra Lại Kết Nối Mạng Hoặc Báo Lại Cho Admin!!")
+    else:
+        print(f"{colors['red']}Lựa Chọn Không Xác Định")
+    exit()
