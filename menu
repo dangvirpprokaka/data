@@ -24,7 +24,7 @@ banner = f"""
 \033[1;37m╔═════════════════════╗
 \033[1;37m║  \033[1;33mTool Pro5          \033[1;37m║
 \033[1;37m╚═════════════════════╝
-{hd}Nhập {trái}3.1{phải}Tool Reg Pro5 {update}
+{hd}Nhập {trái}3.1{phải}Tool Reg Pro5 
 {hd}Nhập {trái}3.2{phải}Tool Thả Icon Story
 {hd}Nhập {trái}3.3{phải}Tool Buff View Story Pro5
 {hd}Nhập {trái}3.4{phải}Tool Buff Follow Bằng Page Pro5
