@@ -7,12 +7,11 @@ banner = f"""
 \033[1;37m╔══════════════════════════╗
 \033[1;37m║  \033[1;33mTool Công Cụ + Tiện Ích \033[1;37m║
 \033[1;37m╚══════════════════════════╝
-{hd}Nhập {trái}1.1{phải}Tool Get Token Profile-Pro5
-{hd}Nhập {trái}1.2{phải}Tool Get Nhiều Loại Token
-{hd}Nhập {trái}1.3{phải}Tool Get Cookie Pro5
-{hd}Nhập {trái}1.4{phải}Tool Đếm Lần Yêu
-{hd}Nhập {trái}1.5{phải}Tool Get Proxy Live
-{hd}Nhập {trái}1.6{phải}Tool Spam Sms
+{hd}Nhập {trái}1.1{phải}Tool Get Nhiều Loại Token
+{hd}Nhập {trái}1.2{phải}Tool Get Cookie Pro5
+{hd}Nhập {trái}1.3{phải}Tool Đếm Lần Yêu
+{hd}Nhập {trái}1.4{phải}Tool Get Proxy Live
+{hd}Nhập {trái}1.5{phải}Tool Spam Sms
 \033[1;31m────────────────────────────────────────────────────────────
 \033[1;37m╔═════════════════════╗
 \033[1;37m║  \033[1;33mTool Facebook      \033[1;37m║
