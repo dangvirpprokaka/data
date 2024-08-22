@@ -19,7 +19,7 @@ banner = f"""
 {hd}Nhập {trái}2.1{phải}Tool Comment Dạo
 {hd}Nhập {trái}2.2{phải}Tool Gửi Tin Nhắn List Bạn Bè
 {hd}Nhập {trái}2.3{phải}Tool Share Ảo Cookie
-{hd}Nhập {trái}2.4{phải}Tool Thêm Bạn Bè Gợi Ý {update}
+{hd}Nhập {trái}2.4{phải}Tool Thêm Bạn Bè Gợi Ý
 {hd}Nhập {trái}2.5{phải}Tool Spam Box Mess {update}
 \033[1;31m────────────────────────────────────────────────────────────
 \033[1;37m╔═════════════════════╗
